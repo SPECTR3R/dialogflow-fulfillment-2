@@ -1,34 +1,26 @@
 {
   "name": "dialogflow-fulfillment-2",
-  "version": "0.6.3",
-  "description": "Dialogflow Fulfillment Library for Node.js",
-  "main": "generateDocs.js",
-  "peerDependencies": {
-    "actions-on-google": "^2.4.1"
+  "version": "1.0.0",
+  "description": "Changes made in + Suggestion Chips (Quick Replies)     + You can modify the title message. + Cards     + You can add up to three buttons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "dialogflow",
-    "api.ai",
-    "client library",
-    "webhook",
-    "fulfillment"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SPECTR3R/dialogflow-fulfillment-2.git"
+    "url": "git+https://github.com/SPECTR3R/dialogflow-fulfillment-2.git"
   },
   "dependencies": {
     "debug": "^3.1.0",
     "lodash": "^4.17.11"
   },
-  "devDependencies": {
-    "ava": "^0.24.0",
-    "commander": "^2.15.1",
-    "eslint": "^4.15.0",
-    "eslint-config-google": "^0.9.1",
-    "jsdoc-to-markdown": "^4.0.1",
-    "jszip": "^3.1.5"
+  "peerDependencies": {
+    "actions-on-google": "^2.4.1"
   },
-  "author": "Jorge Chavarín and Armando del Río",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPECTR3R/dialogflow-fulfillment-2/issues"
+  },
+  "homepage": "https://github.com/SPECTR3R/dialogflow-fulfillment-2#readme"
 }
